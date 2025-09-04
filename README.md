@@ -74,42 +74,6 @@ yarn preview
 bun run preview
 ```
 
-### Linting
-```bash
-npm run lint
-# ou
-yarn lint
-# ou
-bun run lint
-```
-
-## 📁 Estrutura do Projeto
-
-```
-src/
-├── components/          # Componentes reutilizáveis
-│   ├── dashboard/      # Componentes do dashboard
-│   ├── layout/         # Componentes de layout
-│   ├── modals/         # Modais e formulários
-│   └── ui/             # Componentes UI base
-├── contexts/           # Contextos React
-├── hooks/              # Custom hooks
-├── lib/                # Utilitários e configurações
-├── pages/              # Páginas da aplicação
-└── main.tsx           # Ponto de entrada
-```
-
-## 🎨 Funcionalidades
-
-- **Dashboard** - Visão geral do sistema
-- **Gestão de Cursos** - CRUD de cursos
-- **Gestão de Instrutores** - CRUD de instrutores
-- **Gestão de Estudantes** - CRUD de estudantes
-- **Gestão de Turmas** - CRUD de turmas
-- **Calendário** - Visualização de eventos
-- **Relatórios** - Relatórios e análises
-- **Perfil** - Gerenciamento de perfil do usuário
-- **Notificações** - Sistema de notificações
 
 ## 🔧 Configuração
 
@@ -125,14 +89,12 @@ O projeto utiliza:
 - `build` - Gera build de produção
 - `build:dev` - Gera build de desenvolvimento
 - `preview` - Preview da build de produção
-- `lint` - Executa o linter
 
 ## 🌐 Acesso
 
 Após executar `npm run dev`, acesse:
 - **URL Local**: http://localhost:8080
-- **URL Rede**: http://[seu-ip]:8080
+
 
 ## 📝 Licença
-
 Este projeto é privado e pertence à SUKATECH.
